@@ -95,7 +95,7 @@ private fun QrCodeMainScreen() {
 
     val bottomNavigationItems = listOf(
         NavigationScreens.ScanCode,
-//        NavigationScreens.GenerateCode,
+        NavigationScreens.GenerateCode,
         NavigationScreens.History,
 //        NavigationScreens.Setting,
     )
