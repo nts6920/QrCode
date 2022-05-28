@@ -19,7 +19,7 @@ interface ProductResult {
 
     companion object {
         @Singleton
-        var BASE_URL = "http://192.168.76.243:3000"
+        var BASE_URL = "http://192.168.1.8:3000"
 
         fun create() : ProductResult {
 
