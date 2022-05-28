@@ -38,6 +38,7 @@
     <string name="text_barcode">Barcode</string>
     <string name="text_phone">Phone</string>
     <string name="text_text">Text</string>
+    <string name="personal">Personal</string>
     <string name="text_wifi">Wi-fi</string>
     <string name="text_url">URL</string>
     <string name="text_send_sms">Send SMS</string>

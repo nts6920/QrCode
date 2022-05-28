@@ -231,12 +231,6 @@ fun ScanResultContent(
     onEventSent: (event: ScanResultContract.Event) -> Unit?,
 ) {
 
-//    Column(Modifier
-//        .fillMaxWidth()
-//        .height()
-//        .padding(16.dp)
-//        .verticalScroll(rememberScrollState())
-//    ) {
     ScanResultContentHeader(prBarCode = prBarCode,
         formatBarCode = formatBarCode,
         lastDate = lastDate)
