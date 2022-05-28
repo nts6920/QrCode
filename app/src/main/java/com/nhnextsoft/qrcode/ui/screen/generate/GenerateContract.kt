@@ -6,7 +6,7 @@ import com.nhnextsoft.qrcode.base.ViewState
 
 class GenerateContract {
     sealed class Event : ViewEvent {
-        //        data class EventGenerateCode(val valueData: String) : Event()
+        data class EventGenerateCode(val valueData: String) : Event()
         data class EventSaveCreateCode(val valueData: String, val formatBarCode: String) : Event()
     }
 
